@@ -55,9 +55,4 @@ Notes and reminders
 - Use `%p` in `LLVM_PROFILE_FILE` to prevent file clobbering.
 - If you want to use link.exe or MSVC linker directly, be aware you may need to add LLVM profile runtime libs manually; using `clang-cl` for linking is simplest.
 
-If you want, I can:
-- push these files into a GitHub repo for you (provide owner/repo and branch/new-branch name and whether to open a PR), or
-- provide PowerShell variants of the scripts, or
-- add a CMake-based example that configures clang-cl per-build-directory.
-
 ```
